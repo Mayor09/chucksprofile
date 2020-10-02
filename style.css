@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.nav{
+    width: 100%;
+    height: 32px;
+    background: radial-gradient(circle closest-corner at center 125px,#222,black 40%) no-repeat; 
+    position: fixed;
+    z-index: 100;
+
+}
+.topnav {
+overflow: hidden;
+background-color: #333;
+position: relative;
+}
+
+
+.topnav #myLinks {
+display: none;
+}
+
+.topnav a {
+color: #D8AE47;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+display: block;
+}
+
+
+.topnav a.icon {
+background: #111;
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: #111;
+}
+
+.active {
+background: radial-gradient(circle closest-corner at center 125px,#222,black 40%) no-repeat;   
+color: white;
+}
+
+
+.main-image{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to right,#D8AE47, rgb(219, 32, 26) );
+    
+    
+}
+.main-image-2{
+    width: 100%;
+    height: 70vh;
+    border-bottom-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    background: radial-gradient(circle closest-corner at center 125px,#222,black 40%) no-repeat;  
+   
+}
+
+.main-heading-primary{
+position: absolute;
+text-align: center;
+letter-spacing: 0.2rem;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 3rem;
+width: 100%;
+backface-visibility: hidden;
+background: radial-gradient(circle farthest-corner at center center, #ccc,#333) no-repeat;-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+
+}
+.main-heading-secondary{
+position: absolute;
+text-align: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 2.5rem;
+width: 100%;
+color: #D8AE47;
+backface-visibility: hidden;
+
+
+}
+.main-download-cv{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    border:1px inset #D8AE47;
+    border-radius: 20px;
+    cursor: pointer;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #D8AE47;
+    text-align: center;
+    line-height: 40px;
+    
+}
+.main-download-cv a{
+    text-decoration: none;
+    color: #D8AE47;
+}
+.illustration-cover{
+    width: 100%;
+    height:350px;
+    background-color: #ddd;
+    float: left;
+}
+.illustration-cover .pix:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+    
+}
+.illustration-pix, .illustration-team, .illustration-growth{
+    background-color: #ddd;
+    height: 340px;
+    width: 33%;
+    float: left;
+    margin-left: 3px;
+    margin-top: 10px;
+    color: rgb(24, 22, 22);
+    overflow: hidden;
+}
+.section{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    float: left;
+    background-color: rgb(24, 22, 22);
+    clip-path: url(#wave)
+    
+}
+.profile , .profile__2 , .profile__3{
+    height: 250px;
+    width: 32%;
+    float: left;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #ddd;
+    line-height: 30px;
+}
+.profile, .profile__2{
+    margin-top: 32px;
+    
+}
+.profile__3{
+    margin-top: -7.8rem;
+    
+    
+}
+.profile__3 .chucks_photo{
+    border-radius: 50%;
+    margin-left: 70px;
+    border: 5px inset #D8AE47;
+}
+footer{
+background-color: rgb(24, 22, 22);
+width: 100%;
+color: #ddd;
+height: 200px;
+margin-top: 10px;
+float: left;         
+}
+.footer-right .fas, .footer-left .fab{
+color: gray;
+}
+.footer-right{
+float: left;
+width: 340px;
+margin-top: 15px;
+margin-left: 5px;
+}
+.footer-left{
+width: 340px;
+float: right;
+margin-top: 15px;
+margin-left: 5px;
+}
+
+.fa-arrow-circle-up {
+color: #D8AE47;
+float: right;
+margin-right: 25rem;
+text-align: center;
+
+}
+
+/* mobile view */
+@media screen and (max-width: 915px) {
+.main-heading-primary{font-size: 1.8rem;}
+.main-heading-secondary{font-size: 1.5rem;}
+.illustration-cover{height: 1050px;float: left;}
+.illustration-pix,.illustration-team,.illustration-growth{width: 95%;margin-left:10px;float:left; height: 340px;text-align: center;}
+.section{height: 900px;}
+.profile,.profile__2, .profile__3{width: 95%;float:left ; height: 220px;text-align: center;line-height: normal;}
+.profile__3{width: 95%;float:left ; height: 220px;text-align: center;margin-top: 20px;}
+.profile__3 .chucks_photo{margin-left: 10px; height: 212px;}
+footer{height: 350px;}
+.fa-arrow-circle-up {margin-right: 2.5rem; margin-top: -32px;}
+
+}
