@@ -78,6 +78,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 font-size: 3rem;
 width: 100%;
+font-weight:bold;
 backface-visibility: hidden;
 background: radial-gradient(circle farthest-corner at center center, #ccc,#333) no-repeat;-webkit-background-clip: text;-webkit-text-fill-color: transparent;
 
@@ -91,6 +92,7 @@ transform: translate(-50%, -50%);
 font-size: 2.5rem;
 width: 100%;
 color: #D8AE47;
+font-weight:bold;
 backface-visibility: hidden;
 
 
