@@ -12,7 +12,7 @@ body{
     height: 700px;
     width: 15%;
     float: left;
-    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0, 0, 0, 0.9)),url(RoyalG.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.8)),url(RoyalG.jpg);
     
     
 
@@ -118,11 +118,11 @@ nav h1{
 
  /* mobile view */
 @media screen and (max-width: 700px) {
-.dashboard{width: 97%; height: 320px;}
-.register{width: 97%; height: 460px;}
+.dashboard{width: 100%; height: 320px;}
+.register{width: 100%; height: 460px;}
 body{ background-color: #fff;}
-input{width:90%;margin-left:0}
-select{width:90%;margin-left:0}
+input{width:90%;margin-left:8px}
+select{width:90%;margin-left:8px}
 .header,input,select{position: relative; top:-110px;}
 button{margin-left: 5rem}
 
