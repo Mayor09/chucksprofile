@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Guest's Information form</title>
+
+    
+</head>
+<body>
+  <div class="dashboard">
+     
+      <h4 style="color: #fff;text-align: center; margin-top: 2rem; font-weight: normal;">Admin Dashboard</h4>
+    
+      
+      <button style="margin-top: 7.8rem; border-radius: none; width: 70%; margin-left: 28px;">View Guest</button>
+      <button style="margin-top: 45px;background-color: rgb(184, 36, 36);margin-left: 3.5rem; color: #fff;">Logout</button>
+  </div>  
+  <div class="register">
+    <div class="menu">
+      <p> Royal Gee Reservation Centre</p>
+      </div>
+      <div class="header" style="margin-top: 11rem;">
+        
+          <h3 style="left: -1rem; position: relative;">GUEST'S INFO FORM <i class="fa fa-user"></i></h3>
+          
+      </div>
+      <form method="POST" action="Approval.html" autocomplete="off">
+    
+      <input type="text" placeholder="Guest's Fullname" name="fullname" required>
+
+      <select name="gender" required class="form-control input-border">
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select><br><br>
+
+      
+      <input type="text" placeholder="Guest's Address" name="address" required>
+      
+      <input type="number" placeholder="Guest's Phone number" name="phone" required>
+      
+      <input type="number" placeholder="Room number" name="room" required>
+      
+      <input type="text" placeholder="Next of Kin's Fullname" name="nextofkin" required>
+      
+      <input type="text" placeholder="Next of Kin's Address" name="nextofkin_addr" required>
+      
+      <input type="number" placeholder="Next of Kin" name="nextofkin_pho" required> 
+
+     <input type="submit" value="Register" name="register" style="margin-left: 35%;">
+      </form>
+
+          
+  </div>
+
+
+ 
+</body>
+</html>
